@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Foot-and-mouth disease (FMD)",
+    "sym": [
+      "Fever",
+      "Mouth blisters",
+      "Excessive drooling",
+      "Lameness"
+    ],
+    "info": "Contagious viral disease. Mouth and foot lesions, salivation and lameness may occur.",
+    "action": "Separate the animal, avoid moving livestock and contact a veterinarian promptly."
+  },
+  {
+    "name": "Lumpy skin disease (LSD)",
+    "sym": [
+      "Fever",
+      "Skin nodules",
+      "Swollen lymph nodes",
+      "Reduced milk"
+    ],
+    "info": "Viral disease associated with firm skin nodules and fever.",
+    "action": "Contact a veterinarian, isolate affected animals and discuss insect control."
+  },
+  {
+    "name": "Mastitis",
+    "sym": [
+      "Swollen udder",
+      "Abnormal milk",
+      "Reduced milk",
+      "Fever"
+    ],
+    "info": "Inflammation of the udder; milk may contain clots or change appearance.",
+    "action": "Seek veterinary examination and keep abnormal milk separate."
+  },
+  {
+    "name": "Digestive disorder",
+    "sym": [
+      "Loss of appetite",
+      "Diarrhea",
+      "Bloating"
+    ],
+    "info": "Digestive symptoms may have many causes.",
+    "action": "Contact a veterinarian, urgently if bloating is severe or breathing is difficult."
+  },
+  {
+    "name": "Papillomatosis",
+    "sym": [
+      "Wart-like growths",
+      "Skin nodules"
+    ],
+    "info": "Viral warts can resemble other nodular skin conditions. Not covered by the image model.",
+    "action": "Arrange a veterinary examination to distinguish from other causes."
+  },
+  {
+    "name": "Ringworm",
+    "sym": [
+      "Circular hair loss",
+      "Scaly skin"
+    ],
+    "info": "Fungal skin infection that can spread to people and animals. Not covered by the image model.",
+    "action": "Use protective hygiene and arrange veterinary assessment."
+  },
+  {
+    "name": "Tick infestation",
+    "sym": [
+      "Visible ticks",
+      "Skin irritation",
+      "Reduced milk"
+    ],
+    "info": "External parasites can cause irritation and transmit disease. Not covered by the image model.",
+    "action": "Discuss safe parasite control with a veterinarian."
+  },
+  {
+    "name": "Respiratory illness",
+    "sym": [
+      "Cough",
+      "Nasal discharge",
+      "Fever",
+      "Laboured breathing"
+    ],
+    "info": "Respiratory signs have multiple possible infectious and noninfectious causes.",
+    "action": "Seek veterinary care promptly, especially for difficulty breathing."
+  }
+]
