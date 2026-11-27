@@ -1,4 +1,5 @@
-# CattleSense — AI-powered cattle care companion
+﻿# 
+powered cattle care companion
 
 Semester I web reimplementation for educational use. This repository provides real inference adapters, authenticated API routes, a responsive frontend and SQLite persistence. It is not a validated veterinary diagnostic product.
 
@@ -44,9 +45,10 @@ Create an empty repository (no initial README), then run:
 ```powershell
 git init
 git add .
-git commit -m "Initial CattleSense web implementation"
+git commit -m "Initial SmartLivestock AI web implementation"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/CattleSense.git
+git remote add origin https://github.com/YOUR_USERNAME/SmartLivestock AI.git
 git push -u origin main
 ```
 Replace the remote URL with your own. `.gitignore` excludes databases, virtual environments, secrets and model binaries. Check upstream model licensing before any redistribution. This repository is intended for local academic use, not exposure to the public internet without HTTPS, request limits, rate limiting and security review.
+

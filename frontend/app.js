@@ -1,4 +1,4 @@
-
+﻿
 import { api, escapeHtml as e } from './api.js';
 
 const $ = id => document.getElementById(id);
@@ -55,7 +55,7 @@ function cleanAssistantResponse(value) {
     return String(value || '')
         .replace(/\s*\[Gemini[^\]\r\n]*\]/gi, '')
         .replace(/\bgemini-\d+(?:\.\d+)*(?:-[a-z0-9]+)*\b/gi, 'AI Care Assistant')
-        .replace(/\bGemini\b/gi, 'CattleSense AI')
+        .replace(/\bGemini\b/gi, 'SmartLivestock AI AI')
         .trim();
 }
 
@@ -221,7 +221,7 @@ function authForm() {
 
     $('page').innerHTML =
         title(
-            'Welcome to CattleSense',
+            'Welcome to SmartLivestock AI',
             'Sign in or create an account to manage your livestock records.'
         ) + `
 
@@ -1075,7 +1075,7 @@ async function go(i) {
                         <div class="bubble">
 
                             <strong>
-                                Welcome to CattleSense AI Care Assistant!
+                                Welcome to SmartLivestock AI AI Care Assistant!
                             </strong>
 
                             <p style="margin:10px 0;">
@@ -1810,3 +1810,4 @@ try {
 
     authForm();
 }
+

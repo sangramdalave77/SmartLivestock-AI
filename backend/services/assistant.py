@@ -1,8 +1,8 @@
-"""Server-side Gemini integration; never expose credentials to browsers."""
+﻿"""Server-side Gemini integration; never expose credentials to browsers."""
 import os
 from pathlib import Path
 
-SYSTEM = ('You are CattleSense, an educational cattle care assistant. Answer in the user\'s language, '
+SYSTEM = ('You are SmartLivestock AI, an educational cattle care assistant. Answer in the user\'s language, '
           'including English, Hindi or Marathi. Explain practical cattle husbandry, feeding, hygiene, '
           'breed information and prevention. Do not diagnose from descriptions, prescribe drugs or '
           'give dosages. For suspected illness recommend a qualified veterinarian; for severe symptoms '
@@ -22,3 +22,4 @@ def answer(question, history=None):
         response=client.models.generate_content(model=model,contents=contents,config=types.GenerateContentConfig(system_instruction=SYSTEM,max_output_tokens=2048))
     if not response.text: raise RuntimeError('Gemini returned no text')
     return {'answer':response.text,'mode':'Gemini · '+model}
+
